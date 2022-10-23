@@ -1,6 +1,6 @@
 # Artificial-Intelligence
 Réalisé par: 
-EL ABD MAJDA
+EL ABDI MAJDA
 IRCHADE BEN HASSAN
 
 
@@ -26,9 +26,7 @@ On a 5 filtres dont 2 de 32, un de 64, 128 et 256.
 
 
 Fonction d’activation :
-On a utilisé “relu” pour le 1er filtre
-On a changé pour les autres avec “sigmoid” pour voir si les résultats allaient s’améliorer mais c’est avec “relu” qu’on a eu les meilleures performances.
-‘softmax’, dans la fonction dense semble être meilleur que ‘relu’.
+on a changé aussi la fonction dense de softmax à sigmoid.
 
 EPOCHS :
 De base, le projet tournait avec 50 EPOCHS, mais la compilation n’atteignait jamais les 50, le programme est fait à s'arrêter lorsqu’on a plus d’amélioration.
